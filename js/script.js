@@ -26,5 +26,9 @@ for (var i = 1; i <= 100; i++) {
         numero = numero + "Buzz";
     }
 
+    if (i % 6 == 0) {
+        numero = numero + "Boolean";
+    }
+
     console.log(numero);
 }
